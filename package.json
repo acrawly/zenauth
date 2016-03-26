@@ -1,0 +1,19 @@
+{
+  "name": "auth.associatevets.com",
+  "version": "1.0.0",
+  "description": "Authorization for Associate Vets into Zendesk",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Crawford",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jsonwebtoken": "^5.7.0",
+    "passport": "^0.3.2",
+    "passport-windowsauth": "^1.0.0",
+    "underscore": "^1.8.3",
+    "uuid": "^2.0.1"
+  }
+}
